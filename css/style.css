@@ -75,8 +75,8 @@ body{
 }
 .head_nav_li{
   list-style-type: none;
-
 }
+
 .navigation_menu_a{
   text-decoration: none;
   color: #000000;
@@ -493,6 +493,13 @@ color: #FFFFFF;
   width: 130px;
   height: 226px;
 }
+.pages:hover .pages_color a{
+  color: #00BAFC;
+}
+.pages:active .pages_color a{
+  color: #00BAFC;
+  opacity: 0.6;
+}
 .pages_of_site_head{
   font-family: 'Product Sans';
 font-style: normal;
@@ -528,6 +535,18 @@ color: #FFFFFF;
   height: 130px;
   margin-bottom: 40px;
 }
+.social_media:hover .social_medias a{
+color: #00BAFC;
+}
+.social_media:hover   .social_medias img{
+ color: #00BAFC;
+}
+.social_media:active .social_medias a{
+  color: #10BAFC;;
+  }
+  .social_media:active   .social_medias img{
+   color: #10BAFC;;
+  }
 .social_media_word{
   margin-top: 0;
 font-family: "Product Sans";
